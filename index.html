@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Class Online Classes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/images/logo.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="min-vh-100">
+    <!-- header section start -->
+    <nav class="navbar navbar-expand-lg text-light bg-body-tertiary fixed-top">
+      <div class="container">
+        <img src="/images/logo.jpg" class="logo-img" alt="" />
+        <a class="navbar-brand text-light" href="#">MasterClass</a>
+        <button
+          class="navbar-toggler text-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-light px-4 browser-dropdown dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Browse
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <form class="d-flex col-12 px-4" role="search">
+              <div class="position-relative col-12 search-wrap">
+                <input
+                  class="form-control me-2 px-5 search-input outline-0 border-0 p-2"
+                  type="search"
+                  placeholder="What do you want to learn today?"
+                  aria-label="Search"
+                />
+                <i
+                  class="fa-solid text-white fa-magnifying-glass position-absolute top-0 p-2 mt-1 start-0"
+                ></i>
+              </div>
+            </form>
+          </ul>
+
+          <!-- right wrap start -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >At Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">View Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Log In</a>
+            </li>
+            <button class="btn btn-danger px-4 py-2">Sign Up</button>
+          </ul>
+          <!-- right wrap end -->
+        </div>
+      </div>
+    </nav>
+    <!-- header section end -->
+
+    <!-- hero section start -->
+    <section class="container-fluid position-relative hero-section text-light">
+      <!-- background start -->
+      <div class="overlay-bg"></div>
+      <video class="hero-video" autoplay muted loop>
+        <source src="/video/video-two.mp4" type="video/mp4" />
+      </video>
+      <!-- background end -->
+
+      <div class="container hero-content">
+        <div class="position-absolute top-0 container">
+          <h1 class="header-text lh-1 ls-1 fw-bold">
+            LEARN FROM THE BEST, <br />
+            BE YOUR BEST.
+          </h1>
+          <div class="play-btn hero-play-btn position-absolute end-0">
+            <i
+              class="fa-solid fa-pause text-light border p-3 border-secondary rounded-circle"
+            ></i>
+          </div>
+          <p class="fs-5 small-text">
+            Get unlimited access to thousands of bite-sized lessons.
+          </p>
+          <div class="dash bg-danger"></div>
+
+          <h5 class="mt-3 py-3">What brings you to MasterClass today?</h5>
+
+          <!-- checkform wrap start -->
+          <form action="" class="col">
+            <div
+              class="col-12 col-md-6 checkbox-form p-2 rounded-0 rounded-top d-flex align-items-center gap-2 mb-1"
+            >
+              <input
+                type="checkbox"
+                class="form-check-input mb-1 border-secondary check-input"
+                id="professional1"
+                name="professional"
+              />
+              <label class="form-check-label" for="professional1"
+                >Improve my professional or leadership skills</label
+              >
+            </div>
+
+            <div
+              class="col-12 col-md-6 checkbox-form p-2 rounded-0 d-flex align-items-center gap-2 mb-1"
+            >
+              <input
+                type="checkbox"
+                class="form-check-input mb-1 border-secondary check-input"
+                id="professional2"
+                name="professional"
+              />
+              <label for="professional2"
+                >Become a better artist, musician, or writer</label
+              >
+            </div>
+
+            <div
+              class="col-12 col-md-6 checkbox-form p-2 rounded-0 d-flex align-items-center gap-2 mb-1"
+            >
+              <input
+                type="checkbox"
+                class="form-check-input mb-1 border-secondary check-input"
+                id="professional3"
+                name="professional"
+              />
+              <label for="professional3">Become a better chef</label>
+            </div>
+
+            <div
+              class="col-12 col-md-6 checkbox-form p-2 rounded-0 d-flex align-items-center gap-2 mb-1"
+            >
+              <input
+                type="checkbox"
+                class="form-check-input mb-1 border-secondary check-input"
+                id="professional4"
+                name="professional"
+              />
+              <label for="professional4"
+                >Improve my style (interior design or fashion)</label
+              >
+            </div>
+
+            <div
+              class="col-12 col-md-6 checkbox-form p-2 rounded-0 rounded-bottom d-flex align-items-center gap-2 mb-1"
+            >
+              <input
+                type="checkbox"
+                class="form-check-input mb-1 border-secondary check-input"
+                id="professional5"
+                name="professional"
+              />
+              <label for="professional5">Something else</label>
+            </div>
+
+            <div class="mt-4">
+              <button class="btn btn-danger px-4">Continue</button>
+            </div>
+          </form>
+          <!-- checkform wrap end -->
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- second section start -->
+    <section class="pt-5 text-light position-relative container second-section">
+      <h1 class="text-center fw-bold mb-5">
+        Meet the world's best. <br />
+        New classes added every month.
+      </h1>
+      <div class="overlay-bg-two"></div>
+      <div class="second-section-bg-img position-relative mt-4">
+        <!-- right content wrap start -->
+        <div
+          class="text-center d-flex align-items-center position-absolute top-50 end-0 p-5 bottom-50 justify-content-center"
+        >
+          <div class="second-content">
+            <span class="rounded-pill p-2 px-3 bg-light new-text">new</span>
+            <div class="mt-4 lh-1">
+              <p class="ava-text fw-bold">AVA</p>
+              <p class="ava-text fw-bold">
+                D<span class="u-txt">U</span>VERNAY
+              </p>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="dash bg-light text-center"></div>
+            </div>
+            <p class="mt-4">Reframe Your Thinking</p>
+
+            <div
+              class="d-flex border p-2 mt-5 border-2 justify-content-center align-items-center rounded border-secondary fw-bold gap-2"
+            >
+              <i class="fa-solid fa-play"></i>
+              <span>Watch Trailer</span>
+            </div>
+          </div>
+        </div>
+        <!-- right content wrap end -->
+      </div>
+    </section>
+    <!-- second section end -->
+
+    <!-- third section wrap start -->
+    <section class="mt-5 pt-5 container-fluid third-section">
+      <h1 class="text-center text-light fw-bold mb-4">
+        A dose of inspiration, <br />
+        whenever you need it.
+      </h1>
+
+      <!-- items wrap start -->
+      <div
+        class="d-flex container mt-4 text-secondary items-container text-center flex-wrap fw-bold justify-content-center gap-2"
+      >
+        <div
+          class="border rounded col-md-2 border-warning items-box d-flex gap-2 justify-content-center align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-star text-warning"></i>
+          <span>Trending</span>
+        </div>
+        <div
+          class="border-0 col-md-2 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-utensils"></i>
+          <span>Food</span>
+        </div>
+        <div
+          class="border-0 col-md-2 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-pencil"></i>
+          <span>Design & style</span>
+        </div>
+        <div
+          class="border-0 col-md-2 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-palette"></i>
+          <span>Arts & Entertainment</span>
+        </div>
+        <div
+          class="border-0 col-md-2 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-music"></i>
+          <span>Music</span>
+        </div>
+        <div
+          class="border-0 col-md-3 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-business-time"></i>
+          <span>Business</span>
+        </div>
+        <div
+          class="border-0 col-md-3 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-volleyball"></i>
+          <span>Sports & Gaming</span>
+        </div>
+        <div
+          class="border-0 col-md-3 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-book"></i>
+          <span>Writing</span>
+        </div>
+        <div
+          class="border-0 col-md-3 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-brands fa-react"></i>
+          <span>Science & Tech</span>
+        </div>
+        <div
+          class="border-0 col-md-3 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-house"></i>
+          <span>Home & Lifestyle</span>
+        </div>
+        <div
+          class="border-0 col-md-3 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-house-laptop"></i>
+          <span>Community & Government</span>
+        </div>
+        <div
+          class="border-0 col-2 items-box d-flex gap-2 justify-content-center rounded align-items-center p-2 flex-fill"
+        >
+          <i class="fa-solid fa-face-smile"></i>
+          <span>Wellness</span>
+        </div>
+      </div>
+      <!-- items wrap end -->
+
+      <div class="mt-5 d-flex gap-3 container">
+        <p class="text-light fw-bold">Popular now</p>
+        <p class="text-secondary">See all</p>
+      </div>
+
+      <!-- people wrap start -->
+      <div class="d-flex gap-3 overflow-auto people-wrap px-0">
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img col-6 border-0 rounded position-relative">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-one col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-two col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-three col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-four col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-five col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-six col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+        <div class="position-relative">
+          <div class="bg-color"></div>
+          <div class="person-bg-img-seven col-6 border-0">
+            <!-- content start -->
+            <div class="text-light start-0 p-3" style="z-index: 99">
+              <small
+                class="border rounded-pill bg-body-tertiary p-1 px-3 text-dark"
+                >New</small
+              >
+              <div
+                class="d-flex flex-column position-absolute bottom-0 gap-3 text-center"
+              >
+                <p>ORIGINAL SERIES</p>
+                <h1>GUT HEALTH</h1>
+                <small>3 episodes</small>
+              </div>
+            </div>
+            <!-- content end -->
+          </div>
+        </div>
+      </div>
+      <!-- people wrap end -->
+
+      <!-- dots wrap start -->
+      <div class="d-flex justify-content-center mt-5">
+        <div class="d-flex gap-2">
+          <div
+            class="long-dot bg-body-tertiary border-0 rounded-pill p-1 px-3"
+          ></div>
+          <div class="dot bg-secondary border-0 rounded-pill p-1"></div>
+          <div class="dot bg-secondary border-0 rounded-pill p-1"></div>
+          <div class="dot bg-secondary border-0 rounded-pill p-1"></div>
+        </div>
+      </div>
+      <!-- dots wrap end -->
+
+      <!-- explore class btn wrap start -->
+      <div class="d-flex justify-content-center mt-5">
+        <button class="btn btn-secondary p-2 px-3">Explore Classes</button>
+      </div>
+      <!-- explore class btn wrap end -->
+
+      <!-- coming soon start -->
+      <div class="container mt-5 text-light">
+        <h2 class="mb-4">Coming Soon</h2>
+        <div class="d-flex gap-4 overflow-auto">
+          <div class="position-relative">
+            <div class="overlay-soon-bg"></div>
+            <div class="soon-bg-one col-6"></div>
+          </div>
+          <div class="position-relative">
+            <div class="overlay-soon-bg"></div>
+            <div class="soon-bg-two col-6"></div>
+          </div>
+        </div>
+
+        <!-- dots wrap start -->
+        <div class="d-flex justify-content-center mt-5 gap-2">
+          <div
+            class="long-dot bg-body-tertiary border-0 rounded-pill p-1 px-3"
+          ></div>
+          <div class="dot bg-secondary border-0 rounded-pill p-1"></div>
+        </div>
+        <!-- dots wrap end -->
+      </div>
+      <!-- coming soon end -->
+    </section>
+    <!-- third section wrap end -->
+
+    <!-- fourth section wrap start -->
+    <section class="container mt-5 fourth-section">
+      <div class="d-flex flex-column justify-content-center text-center">
+        <h1 class="text-light">Start your journey today.</h1>
+        <p class="mt-4">
+          Choose from 3 plans. Starting at
+          <span class="text-light">$10/month,</span> billed annually.
+        </p>
+      </div>
+      <!-- btn wrap start -->
+      <div class="d-flex gap-3 justify-content-center mt-4">
+        <button class="btn btn-danger px-3">Sign Up</button>
+        <button class="btn btn-secondary px-3">Explore Classes</button>
+      </div>
+      <!-- btn wrap end -->
+
+      <!-- master-class wrap start -->
+      <div class="showcase-wrap p-5 mt-5 text-light level-up-wrap">
+        <div class="d-flex flex-column position-relative">
+          <img
+            src="/images/banner-img.webp"
+            class="banner-img position-absolute top-0 img-fluid"
+            alt="banner-image"
+          />
+
+          <div class="ms-auto">
+            <p>
+              <span>MasterClass</span>
+              <span class="text-secondary">at</span>
+              <span class="text-secondary fw-semibold">Work</span>
+            </p>
+            <h1 class="level-text">LEVEL UP YOUR TEAM</h1>
+            <p class="text-secondary">
+              See why leading organizations rely on <br />
+              MasterClass for learning & development.
+            </p>
+            <!-- Button wrap -->
+            <div
+              class="d-flex gap-3 flex-column flex-md-row align-items-center"
+            >
+              <button class="btn btn-danger mb-2 mb-md-0">Contact Sales</button>
+              <div class="d-flex align-items-center">
+                <span class="me-2">Learn More</span>
+                <i class="fa-solid fa-arrow-right mt-1"></i>
+              </div>
+            </div>
+            <!-- End Button wrap -->
+          </div>
+        </div>
+      </div>
+      <!-- master-class wrap end -->
+    </section>
+    <!-- fourth section wrap end -->
+
+    <!-- fifth section start -->
+    <section class="fifth-section position-relative mt-5">
+      <!--video wrap start -->
+      <video autoplay muted loop>
+        <source src="/video/video-one.mp4" type="video/mp4" />
+      </video>
+      <!--video wrap end -->
+
+      <!-- content wrap start -->
+      <div class="container">
+        <div class="container mt-5 top-3 py-5 sticky-top position-absolute">
+          <h1 class="text-light z-3">
+            Choose a category to watch a class highlight
+          </h1>
+
+          <div class="float-end play-btn">
+            <i
+              class="fa-solid fa-pause text-light border p-3 border-secondary rounded-circle"
+            ></i>
+          </div>
+
+          <!-- items wrap start -->
+          <div class="mt-5 fifth-item-wrap text-light">
+            <h3><span>Food</span></h3>
+            <h3><span>Design & Style</span></h3>
+            <h3><span>Arts & Entertainment</span></h3>
+            <h3><span>Music</span></h3>
+            <h3><span>Business</span></h3>
+            <h3><span>Sports and Gaming</span></h3>
+            <h3><span>Writing</span></h3>
+            <h3><span>Science & Tech</span></h3>
+            <h3><span>Home & Lifestyle</span></h3>
+            <h3><span>Communtiy & Government</span></h3>
+            <h3><span>Wellness</span></h3>
+          </div>
+        </div>
+        <!-- items wrap end -->
+      </div>
+      <!-- content wrap end -->
+    </section>
+    <!-- fifth section end -->
+
+    <!-- sixth section wrap start -->
+    <section class="container mt-5 sixth-section">
+      <form action="" class="row align-items-center">
+        <div class="col-md-6">
+          <h4 class="text-light">Try some of our classes</h4>
+          <p class="text-secondary">
+            Enter your email and we’ll send you some samples of our favorite
+            <br />
+            classes.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <!-- email wrap start -->
+          <div class="d-flex flex-column gap-1">
+            <label class="text-light" for="email">Email</label>
+            <div class="d-flex gap-2">
+              <input
+                type="text"
+                name="email"
+                class="border border-danger email-input search-input rounded p-2 pl-4"
+                placeholder="Enter Email Address"
+              />
+              <button
+                class="btn border border-secondary rounded px-5 text-light"
+              >
+                Submit
+              </button>
+            </div>
+            <!-- email wrap end -->
+
+            <div class="d-flex gap-2 align-items-center mt-2">
+              <i class="fa-solid text-danger fa-triangle-exclamation"></i>
+              <span class="text-danger">Must be a valid email address</span>
+            </div>
+            <div class="d-flex gap-2 mt-1">
+              <input
+                type="checkbox"
+                class="check-input bg-secondary"
+                name="check"
+                id="check"
+              />
+              <label for="check" class="text-secondary"
+                >I agree to receive email updates</label
+              >
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- sixth section wrap end -->
+
+    <!-- seventh section start -->
+    <section class="container mt-5 d-flex flex-column justify-content-center">
+      <h1 class="text-center text-light">Frequently asked questions</h1>
+
+      <!-- accordion wrap start -->
+      <div
+        class="col-8 d-flex flex-column col-md-12 col-12 justify-content-center mx-auto"
+      >
+        <div class="accordion" id="accordionExample">
+          <h3 class="text-secondary p-2">General</h3>
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is MasterClass?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-light">
+                MasterClass is the streaming platform that makes it possible for
+                anyone to watch or listen to hundreds of video lessons taught by
+                200+ of the world’s best. Whether it be in business and
+                leadership, photography, cooking, writing, acting, music, sports
+                and more, MasterClass delivers a world class online learning
+                experience. Video lessons are available anytime, anywhere on
+                your smartphone, personal computer, Apple TV and FireTV
+                streaming media players.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="true"
+                aria-controls="collapseTwo"
+              >
+                Pricing & Payment
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-light">
+                MasterClass is the streaming platform that makes it possible for
+                anyone to watch or listen to hundreds of video lessons taught by
+                200+ of the world’s best. Whether it be in business and
+                leadership, photography, cooking, writing, acting, music, sports
+                and more, MasterClass delivers a world class online learning
+                experience. Video lessons are available anytime, anywhere on
+                your smartphone, personal computer, Apple TV and FireTV
+                streaming media players.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark text-light">
+            <h2 class="accordion-header text-light">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="true"
+                aria-controls="collapseThree"
+              >
+                Sessions
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-light">
+                MasterClass is the streaming platform that makes it possible for
+                anyone to watch or listen to hundreds of video lessons taught by
+                200+ of the world’s best. Whether it be in business and
+                leadership, photography, cooking, writing, acting, music, sports
+                and more, MasterClass delivers a world class online learning
+                experience. Video lessons are available anytime, anywhere on
+                your smartphone, personal computer, Apple TV and FireTV
+                streaming media players.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion mt-5" id="accordionExample">
+          <h3 class="text-secondary p-2">Pricing & Payment</h3>
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="true"
+                aria-controls="collapseFour"
+              >
+                What is MasterClass?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-light">
+                MasterClass is the streaming platform that makes it possible for
+                anyone to watch or listen to hundreds of video lessons taught by
+                200+ of the world’s best. Whether it be in business and
+                leadership, photography, cooking, writing, acting, music, sports
+                and more, MasterClass delivers a world class online learning
+                experience. Video lessons are available anytime, anywhere on
+                your smartphone, personal computer, Apple TV and FireTV
+                streaming media players.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="true"
+                aria-controls="collapseFive"
+              >
+                Pricing & Payment
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-light">
+                MasterClass is the streaming platform that makes it possible for
+                anyone to watch or listen to hundreds of video lessons taught by
+                200+ of the world’s best. Whether it be in business and
+                leadership, photography, cooking, writing, acting, music, sports
+                and more, MasterClass delivers a world class online learning
+                experience. Video lessons are available anytime, anywhere on
+                your smartphone, personal computer, Apple TV and FireTV
+                streaming media players.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark text-light">
+            <h2 class="accordion-header text-light">
+              <button
+                class="accordion-button bg-dark text-light"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="true"
+                aria-controls="collapseSix"
+              >
+                Sessions
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body text-light">
+                MasterClass is the streaming platform that makes it possible for
+                anyone to watch or listen to hundreds of video lessons taught by
+                200+ of the world’s best. Whether it be in business and
+                leadership, photography, cooking, writing, acting, music, sports
+                and more, MasterClass delivers a world class online learning
+                experience. Video lessons are available anytime, anywhere on
+                your smartphone, personal computer, Apple TV and FireTV
+                streaming media players.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- accordion wrap end -->
+    </section>
+    <!-- seventh section end -->
+
+    <!-- footer section start -->
+    <footer class="container-fluid mt-5 pt-4 footer">
+      <div class="container-md d-md-flex justify-content-between pt-md-5">
+        <div class="d-md-flex flex-column gap-3">
+          <h5 class="text-secondary">Explore</h5>
+          <p class="text-light">Articles</p>
+          <p class="text-light">Sitemap</p>
+          <p class="text-light">Gifts</p>
+        </div>
+
+        <div class="d-md-flex flex-column gap-3">
+          <h5 class="text-secondary">About</h5>
+          <p class="text-light">Diversity, Equity, and Inclusion</p>
+          <p class="text-light">Careers</p>
+          <p class="text-light">Newsroom</p>
+          <p class="text-light">Newsroom</p>
+          <p class="text-light">Newsroom</p>
+          <p class="text-light">Newsroom</p>
+          <p class="text-light">Newsroom</p>
+          <p class="text-light">Newsroom</p>
+          <p class="text-light">Newsroom</p>
+        </div>
+
+        <div class="d-md-flex flex-column gap-3">
+          <h5 class="text-secondary">Socials</h5>
+          <div class="text-light d-flex gap-2 align-items-center">
+            <i class="fa-brands fa-twitter"></i>
+            <span>Twitter</span>
+          </div>
+          <div class="text-light d-flex gap-2 align-items-center">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </div>
+          <div class="text-light d-flex gap-2 align-items-center">
+            <i class="fa-brands fa-square-facebook"></i>
+            <span>Facebook</span>
+          </div>
+          <div class="text-light d-flex gap-2 align-items-center">
+            <i class="fa-brands fa-youtube"></i>
+            <span>Youtube</span>
+          </div>
+          <div class="text-light d-flex gap-2 align-items-center">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+          </div>
+        </div>
+
+        <div class="d-md-flex flex-column gap-3">
+          <h5 class="text-secondary">Download</h5>
+          <div
+            class="d-flex app-store-wrap align-items-center gap-1 border border-1 px-3 border-secondary rounded p-2"
+          >
+            <div class="text-light fs-1">
+              <i class="fa-brands fa-apple"></i>
+            </div>
+            <div class="text-light lh-1">
+              <small class="">Download on the</small>
+              <h2>App Store</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-md-flex gap-3 container py-md-5 mt-md-5 align-items-center">
+        <img src="/images/logo.jpg" class="logo-img img-fluid" alt="" />
+        <p class="mt-3 text-light">© 2024 MasterClass</p>
+        <p class="mt-3 text-light">Secured with SSL</p>
+      </div>
+    </footer>
+
+    <!-- footer section end -->
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
+</html>
